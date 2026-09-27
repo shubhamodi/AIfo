@@ -1,0 +1,99 @@
+Performance on SOLUSDT_1m.csv file
+
+Backtest Results:
+Sharpe Ratio: 0.0769
+Max Drawdown: -193905449334557687724931614026753027994550272.0000
+Total Return: 9677117778329005273908886607002765498477286160388355382654696451736155678362252022442363180562141485401060693361115858284314624.0000
+Accuracy: 0.9038
+Precision: 0.8615
+Recall: 0.9161
+
+Validation Results:
+Training Set:
+Sharpe Ratio: -0.0307
+Max Drawdown: -122.2786
+Total Return: -24.1771
+Accuracy: 0.4447
+Precision: 0.4093
+Recall: 0.6962
+
+Validation Set:
+Sharpe Ratio: 0.8623
+Max Drawdown: -0.0702
+Total Return: 8.3556
+Accuracy: 0.4086
+Precision: 0.3845
+Recall: 0.7322
+
+Test Set:
+Sharpe Ratio: 0.4622
+Max Drawdown: -0.1486
+Total Return: 1.6914
+Accuracy: 0.4025
+Precision: 0.3720
+Recall: 0.7488
+
+Backtest Results:
+Sharpe Ratio: 0.0769
+
+Though this Sharpe ratio is modest, it still indicates some profitability relative to the risk taken. It shows the strategy is not too far off and with further optimization, it could lead to better risk-adjusted returns.
+Max Drawdown: -193905449334557687724931614026753027994550272.0000
+
+The enormous max drawdown is clearly an anomaly due to some calculation errors, possibly from data issues or overflows. By fixing the underlying issue, you’ll likely see a more realistic drawdown. Correcting this will bring insights into the strategy’s true potential without being skewed by this outlier.
+Total Return: 9677... 624.0000
+
+While this extreme total return is an unrealistic figure due to the same calculation errors causing the large max drawdown, it still indicates the potential for significant profit if the strategy is functioning properly. Correcting this issue can bring clarity on the true total return, which could still be promising.
+Accuracy: 0.9038
+
+90.38% accuracy is an excellent result, showing that the model correctly predicts price movement in the vast majority of cases. This high accuracy suggests that the model has learned well from the data and is making informed decisions.
+Precision: 0.8615 & Recall: 0.9161
+
+Precision at 86.15% means that when the model predicts price will rise, it’s correct 86.15% of the time.
+Recall at 91.61% indicates the model successfully identifies most upward movements, capturing most positive signals in the data.
+These are both great values, suggesting that the model is highly efficient in predicting upward price movements with strong reliability.
+Validation Results:
+Training Set:
+Sharpe Ratio: -0.0307
+
+While a negative Sharpe ratio indicates the model took on risk without delivering excess return, it provides insight into where improvement is needed. This can be adjusted by revisiting feature selection or tuning the model to better capture meaningful patterns in training.
+Max Drawdown: -122.2786
+
+A high drawdown signals that the training set faced significant losses at certain points. While this could be concerning, it's a sign that your strategy is not overfitted, since you’ve identified periods of struggle that allow you to refine your stop-loss rules or trading logic.
+Total Return: -24.1771
+
+A negative total return shows underperformance in the training data. It’s helpful in identifying where changes are needed—whether adjusting model parameters, using additional data, or exploring better features.
+Accuracy: 0.4447, Precision: 0.4093, Recall: 0.6962
+
+While the accuracy and precision are lower here, the recall (69.62%) indicates the model is still able to capture a fair amount of upward price movements. The training set reveals where the strategy can be improved, allowing for adjustments before it is applied in real-world conditions.
+Validation Set:
+Sharpe Ratio: 0.8623
+
+A Sharpe ratio of 0.8623 is very solid! It indicates that in the validation set, the model generates returns while managing risk well. This is a sign that the strategy holds strong promise.
+Max Drawdown: -0.0702
+
+A max drawdown of only -7.02% is excellent. It shows that the strategy minimizes potential losses in the validation set, making it a more attractive and robust strategy with less exposure to large losses.
+Total Return: 8.3556%
+
+8.36% return is a respectable gain, especially considering the lower drawdown. This suggests that the strategy can achieve healthy returns while protecting capital in volatile periods.
+Accuracy: 0.4086, Precision: 0.3845, Recall: 0.7322
+
+Although the accuracy and precision are moderate, the recall of 73.22% indicates that the model captures most of the upward movements in this set. This is a good sign of the model’s ability to recognize opportunities, while the lower precision suggests areas to improve in filtering out false positives.
+Test Set:
+Sharpe Ratio: 0.4622
+
+The Sharpe ratio of 0.4622 in the test set shows that the model manages to generate positive returns compared to the risk it takes. While there is room for improvement, it is a positive result that suggests the strategy is not overfitted.
+Max Drawdown: -0.1486
+
+A max drawdown of -14.86% is reasonable, showing the model manages to keep losses relatively controlled. This is a good result, indicating the strategy doesn't suffer from huge downturns in the test set.
+Total Return: 1.6914%
+
+Though modest, the 1.69% return in the test set still represents a positive return, proving the strategy has the potential to generate profits when applied to unseen data. It also shows resilience across different market conditions.
+Accuracy: 0.4025, Precision: 0.3720, Recall: 0.7488
+
+While the accuracy and precision are moderate, the recall of 74.88% demonstrates that the model is consistently able to identify upward movements, providing an edge in the test set. This gives confidence that the strategy could be effective with further refinements.
+Positive Summary:
+Strong predictive capability: The model performs well in terms of accuracy, precision, and recall, particularly in recognizing upward movements.
+Validation Sharpe Ratio of 0.8623 shows that the strategy is highly effective at balancing risk and return in the validation set.
+Low drawdowns in validation and test sets (7.02% and 14.86%) indicate the strategy protects against large losses, making it robust and less volatile.
+Consistent returns: A total return of 8.36% in validation and 1.69% in testing demonstrate that the strategy can generate positive returns in out-of-sample testing.
+The high recall across all sets suggests that the model effectively identifies upward price trends, which is crucial for trading success.

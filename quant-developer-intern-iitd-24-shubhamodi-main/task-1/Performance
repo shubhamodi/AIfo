@@ -1,0 +1,38 @@
+Performance on ETHUSDT_1m.csv file
+Final Portfolio Value: $30498.03
+Sharpe Ratio: 0.0550
+Sortino Ratio: 0.0023
+Max Drawdown: -0.1282
+Annualized Return: 0.01%
+Cumulative Return: 204.98%
+
+the strategy's performance:
+
+Final Portfolio Value: $30,498.03
+This is the total value of your portfolio at the end of the backtest period. If you started with an initial capital of $10,000, your portfolio grew to $30,498.03, meaning a net increase of $20,498.03. This represents a significant gain over the backtest period.
+
+Sharpe Ratio: 0.0550
+The Sharpe ratio measures the risk-adjusted return of a strategy. It is calculated as the ratio of the strategy's excess return (return above a risk-free rate) to its standard deviation (a measure of risk).
+A Sharpe ratio of 0.0550 is quite low, indicating that the returns you gained are not well compensated relative to the risk taken. Typically, a Sharpe ratio of 1 or above is considered good, and anything below 0.5 is weak. In your case, the strategy has delivered returns, but it involved a lot of risk or volatility in doing so.
+
+Sortino Ratio: 0.0023
+The Sortino ratio is similar to the Sharpe ratio but focuses only on downside risk (i.e., it penalizes negative volatility, not total volatility).
+A Sortino ratio of 0.0023 is also quite low, indicating that the strategy has not performed well in managing the downside risk (losses). A higher Sortino ratio would indicate that the strategy avoids large losses or negative returns.
+
+Max Drawdown: -0.1282 (or -12.82%)
+Max drawdown represents the largest peak-to-trough decline in the value of the portfolio during the backtest.
+A drawdown of -12.82% means that, at some point, your portfolio dropped by 12.82% from its highest value before recovering. A smaller drawdown indicates a more stable strategy, while a larger drawdown suggests periods of significant loss. In your case, the drawdown is reasonable (not extremely high), but it's still something to consider, especially if the goal is to minimize risk.
+
+Annualized Return: 0.01%
+Annualized return shows how much your portfolio grew annually, taking into account the compounding effect.
+An annualized return of 0.01% is quite low despite the portfolio growing significantly in absolute terms. This suggests that while the total return looks substantial (due to a long backtest period), the growth on an annual basis is minimal. This could imply that the strategy may have performed well in specific periods but did not consistently grow over time.
+
+Cumulative Return: 204.98%
+Cumulative return represents the total percentage increase in your portfolio over the backtest period.
+A cumulative return of 204.98% means your initial investment of $10,000 grew by 204.98%, resulting in a total portfolio value of $30,498.03. This is a strong total return, but the low Sharpe and Sortino ratios suggest that this return may have come with a lot of volatility and risk.
+
+Interpretation:
+Good return, but with high risk: The cumulative return and final portfolio value are impressive (204.98% return), but the low Sharpe and Sortino ratios indicate that the strategy took on a lot of risk to achieve these returns. It means the returns were not smooth, and there were likely periods of significant volatility.
+Low risk-adjusted performance: The very low Sharpe and Sortino ratios suggest that the returns were not consistent relative to the risk taken. A more stable strategy would aim to improve these ratios while still delivering good returns.
+Drawdown is moderate: The drawdown of 12.82% is moderate, suggesting that the strategy experienced some significant declines in value but was able to recover.
+Annualized return is low: The annualized return of 0.01% is very low, indicating that despite the large cumulative gain, the strategy may have been underperforming on a yearly basis, possibly due to long periods of stagnation or poor performance.

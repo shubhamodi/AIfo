@@ -1,0 +1,40 @@
+Performance on BTCUSDT_1m.csv file
+
+Best lookback period: 35
+Total Return: 2253.86%
+Annualized Return: 36.82%
+Sharpe Ratio: 0.82
+Max Drawdown: -67.61%
+
+the performance of the trading strategy:
+
+1. Best Lookback Period: 35
+The lookback period is the number of past data points (in this case, probably days or minutes depending on your time frame) used to calculate indicators like moving averages or momentum. A lookback period of 35 means that the strategy was most effective when it used data from the last 35 time periods to make decisions. This is the "optimal" value you found based on your testing.
+2. Total Return: 2253.86%
+This is a very high total return, meaning that your portfolio grew by 2253.86% during the backtest period. If you had started with $10,000, it would have grown to around $235,386.
+Such high returns are extremely impressive, but other metrics like Sharpe Ratio and Max Drawdown will help us understand if this performance came with significant risk.
+3. Annualized Return: 36.82%
+This shows the compounded return the strategy achieved per year. An annualized return of 36.82% is exceptional, meaning the strategy would more than double the investment in about two years, assuming consistent performance.
+It's a significant improvement from the previous result where annualized return was very low (0.01%).
+4. Sharpe Ratio: 0.82
+The Sharpe ratio has improved to 0.82, which is much better than the previous 0.0550. It indicates that for every unit of risk taken (in terms of volatility), the strategy is returning a reasonable amount of profit.
+Typically, a Sharpe ratio above 1 is considered good, and above 0.8 is considered respectable, though there's room for improvement. This ratio shows that your strategy is achieving solid returns relative to its risk.
+5. Max Drawdown: -67.61%
+Max drawdown represents the largest peak-to-trough decline in your portfolio value during the backtest. A drawdown of -67.61% means your portfolio experienced a loss of 67.61% from its highest point at some point in the backtest.
+This is extremely high. It suggests that while the strategy produced very strong returns overall, there were periods of severe losses along the way. If you had started investing near the peak, you could have lost over two-thirds of your portfolio value before the strategy recovered.
+A drawdown of this size is risky for most investors because it indicates high volatility, and not every investor has the tolerance to withstand such deep losses before a recovery occurs.
+
+Interpretation:
+Outstanding Total and Annualized Returns:
+The total return of 2253.86% and annualized return of 36.82% are both outstanding and suggest that this strategy, in the right market conditions, could yield massive profits. The fact that it outperforms standard market returns by a wide margin is encouraging.
+
+Improved Risk-Adjusted Returns:
+The Sharpe ratio of 0.82 is much better than before, meaning the strategy now balances risk and reward better. While it’s not above 1 (which is ideal), it's now in a range where the strategy can be considered somewhat reliable in delivering returns relative to the risk involved.
+
+High Volatility (Drawdown):
+The max drawdown of -67.61% is a big red flag. While the strategy eventually recovers and generates huge returns, it does so at the cost of extreme volatility. This means that, at times, the portfolio would have lost over two-thirds of its value. A lot of investors would struggle to stay in the market through such steep losses, even if there’s a chance of eventual recovery.
+
+Conclusion:
+
+Pros: The strategy is highly profitable with excellent long-term returns and a solid Sharpe ratio, meaning the risk-adjusted performance is decent.
+Cons: The high drawdown means that the strategy has a tendency to suffer large losses in certain periods, which could deter many investors.
